@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/1440px.css" media="(min-width:1440px">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <img class="alura-logo" src="img/Vector.png" >
+    <h1 class="title" >Encriptador de texto</h1>
+  </header>
+  <main>
+    <section class="text-entry">
+      <textarea id="content" placeholder="Ingrese texto aquí"></textarea>
+      <div class="alert">
+        <img src="img/exclamacion.png">
+        <h3>Sólo letras minúsculas y sin tildes</h3>
+      </div>
+    </section>
+    
+    <section class="options">
+      <button id="encrypt">Encriptar</button>
+      <button id="decrypt">Desencriptar</button>
+    </section>
+
+    <section class="output">
+      <img id="ilustration" src="img/dibujo.png" alt="">
+      <h2 id="h2" >Ningún mensaje fue encontrado</h2>
+      <p id="p" >ingresa el texto que desees encriptar o desencriptar</p>
+      <button id="copy" >Copiar</button>
+    </section>
+  </main>
+</body>
+
+<script src="js/index.js"></script>
+<script src="js/encrypt.js"></script>
+<script src="js/decrypt.js"></script>
+</html>
+

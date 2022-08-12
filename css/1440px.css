@@ -1,0 +1,79 @@
+body{
+  height: 100vh;
+}
+
+header{
+  width: calc(100% - 400px);
+}
+
+.title{
+  font-size: 40px;
+}
+
+main{
+  width: calc(100% - 400px);
+  align-items: center;
+  padding-left: 240px;
+}
+
+.text-entry{
+  width: 100%;
+  padding: 32px 32px 32px 0px;
+}
+
+textarea{
+  margin: 0 auto;
+  font-size: 40px;
+
+}
+
+.alert{
+  height: 25px;
+}
+
+.alert img{
+  display: inline-block;
+  width: 25px;
+}
+
+.alert h3{    
+  font-size: calc(25px*0.75);/*lo pensé así: antes, el height del contenedor era 16px y el height de la letra era 12px (el 0.75 de 16px). Entonces, si cambio el height del contenedor a 25, la letra debe ser su 75%*/
+}
+
+.options{
+  width: 100%;
+  padding-right: 32px;
+  justify-content: space-between;
+}
+
+button{
+  font-size: 20px;
+}
+
+.output{
+  position: absolute;
+  top: 0;
+  right: 16px;
+  width: 400px;
+  height: calc(100vh - 32px - 32px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.output img{
+  display: inline-block;
+  width: 336px;
+  height: 304px;
+}
+
+.output h2{
+  margin: 32px 0;
+  font-size: 29px;
+}
+
+.output p{
+  font-size: 20px;
+  max-width: 390px;
+}
+
